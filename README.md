@@ -27,7 +27,6 @@ Each scoring function was built using generalized linear models (GLMs) applied t
     
     cd GLM-Score-master
     g++ GLM-Score.cpp -o GLM-Score
-    chmod +x GLM-Score
     
 #Run
     
