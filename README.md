@@ -40,7 +40,7 @@ There are 4 input parameters for GLM-Score:
 1. Protein or receptor structure in PDB format (www.pdb.org);
 2. Ligand structure in PDB format (the ligand can also be another protein);
 3. The same ligand structure, but in MOL2 format. There are many stand alone and online tools available for converting PDB files into MOL2 format. Some examples are OpenBabel (http://openbabel.org) and the online molecular formats converter (http://www.webqc.org/molecularformatsconverter.php).
-4. The type of ligand (DNA, protein, or small_molecule). Dependending on the type of molecule you provide, the program will choose the best statistical model for predicting the binding affinity of your binding complex complex.
+4. The type of ligand molecule (DNA, protein, or small_molecule). Dependending on the type of molecule you provide, the program will choose the best statistical model for predicting the binding affinity of your binding complex complex.
 
 
     
