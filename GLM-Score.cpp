@@ -276,6 +276,8 @@ using namespace std;
 char protein_name[100];
 char ligand_name[100];
 char ligand_pdb[100];
+
+char ligand_type[100];
 
 ofstream qscore;
 
@@ -323,17 +325,7 @@ if(line == "@<TRIPOS>ATOM") {
 	 pos = 0;
 	 line[0]=' ';
 	 
-      while (line[0]==' ' && !inlig.eof()) {
- //    pos = 0;
-//	 while (pos!=52 && line[0]!='@' && !inlig.eof()) {
-//	 inlig.get(line[pos]);
-//	 if (line[pos]!='@')
-//	 {outlig.put(line[pos]);}
-//	 pos++;
-//	 }
-//	 outlig.put('\n');
-//	 line[53]=' ';	
-//	 while (line[53]!='\n' && !inlig.eof()){inlig.get(line[53]);}
+      while (line[0]==' ' && !inlig.eof()) {
 
 	    getline(inlig, line);
 	    if (line[0]!='@'){
@@ -5405,14 +5397,63 @@ strcpy(str2, "python asa/asa.py ");
 char str3[100];
 strcpy(str3, ligand_name);
 strcat(str3, ".interaction_terms.txt");
+
+char type[100];
  
- ofstream interaction_terms(str3);
- interaction_terms << "V2\tV3\tV4\tV5\tV6\tV7\tV18\tV19"  << endl << HC_total2 << "\t" << VDW_total << "\t" <<  RT << "\t" << HB << "\t" << ASA1 << "\t" << ASA2 << "\t" << repulsive << "\t" << london << endl;
-interaction_terms.close();
+
 
 FILE* fp3;
 char result3[10];
-char str4[100] = "Rscript R/script.R ";
+char str4[100];
+
+    if (strcmp(ligand_type,"DNA") == 0 || strcmp(ligand_type,"RNA") == 0 || strcmp(ligand_type,"DNA/RNA") == 0 || strcmp(ligand_type,"nucleotide") == 0 || strcmp(ligand_type,"protein-DNA") == 0 || strcmp(ligand_type,"protein-RNA") == 0 || strcmp(ligand_type,"protein-DNA/RNA") == 0 || strcmp(ligand_type,"protein-nucleotide") == 0 || strcmp(ligand_type,"nucl") == 0){
+        strcpy(str4, "Rscript R/DNA/script.R ");
+	strcpy(type,"DNA");
+	//cout << "found DNA" << endl;
+    }else{
+    
+        if (strcmp(ligand_type,"small") == 0 || strcmp(ligand_type,"small molecule") == 0 || strcmp(ligand_type,"drug") == 0 || strcmp(ligand_type,"prtoein-small") == 0 || strcmp(ligand_type,"protein-small molecule") == 0 || strcmp(ligand_type,"protein-drug") == 0){
+	    strcpy(str4, "Rscript R/small_molecule/script.R ");
+	    //cout << "found small molecule" << endl;
+	    strcpy(type,"small");
+	}else{
+    
+	    if (strcmp(ligand_type,"protein") == 0 || strcmp(ligand_type,"protein-protein") == 0 || strcmp(ligand_type,"peptide") == 0 || strcmp(ligand_type,"polypetide") == 0 || strcmp(ligand_type,"prot") == 0){
+		strcpy(str4, "Rscript R/protein/script.R ");
+		//cout << "found protein" << endl;
+		strcpy(type,"protein");
+	    }else{
+	      strcpy(str4, "Rscript R/DNA/script.R ");
+	      if (strcmp(ligand_type,"unknown") == 0){
+		  cout << "No ligand type provided, using default scoring function (protein-DNA/RNA).\n";
+		  strcpy(type,"DNA");
+	      }else{
+		cout << "Found unknown ligand type parameter " << ligand_type << ", using default (DNA).\n";
+		strcpy(type,"DNA");
+	      }
+	      
+	    }
+	}
+	
+    }
+    
+    
+ ofstream interaction_terms(str3);
+ if(strcmp(type,"DNA") == 0){
+//DNA
+ interaction_terms << "V2\tV3\tV4\tV5\tV6\tV7\tV18\tV19"  << endl << HC_total2 << "\t" << VDW_total << "\t" <<  RT << "\t" << HB << "\t" << ASA1 << "\t" << ASA2 << "\t" << repulsive << "\t" << london << endl;
+ }
+ if(strcmp(type,"small") == 0){
+ //small
+ interaction_terms << "V2\tV3\tV4\tV5\tV6\tV7\tV17\tV18"  << endl << HC_total2 << "\t" << VDW_total << "\t" <<  RT << "\t" << HB << "\t" << ASA1 << "\t" << ASA2 << "\t" << repulsive << "\t" << london << endl;
+ }
+ if(strcmp(type,"protein") == 0){
+//protein
+ interaction_terms << "V2\tV3\tV4\tV5\tV6\tV7\tV16\tV17"  << endl << HC_total2 << "\t" << VDW_total << "\t" <<  RT << "\t" << HB << "\t" << ASA1 << "\t" << ASA2 << "\t" << repulsive << "\t" << london << endl;
+ }
+interaction_terms.close();    
+
+
 //cout << strcat(str4, str3) << endl;
 fp3 = popen(strcat(str4, str3), "r");
 fread(result3,1,sizeof(result3),fp3);
@@ -5435,14 +5476,26 @@ int main(int argc, char *argv[])
 
 {
  
- if (argc != 4)
-	{cout << "usage: GLM-Score <protein_file PDB> <ligand_file PDB> <ligand_file MOL2> \n"; exit(1);}
+    if (argc < 4){
+	cout << "usage: GLM-Score <protein_file PDB> <ligand_file PDB> <ligand_file MOL2> <Ligand Type> \n\n<Ligand Type> is the type of ligand molecule, which supports 3 alternative options:\n\nDNA (or RNA), small-molecule (or drug), and protein.\nIf no <Ligand Type> is provided, protein-DNA/RNA scoring function will be used as default.\n\n";
+	exit(1);
+    }
 
  	
 strcpy(protein_name, argv[1]);
 strcpy(ligand_name, argv[3]);
-strcpy(ligand_pdb, argv[2]);
-
+strcpy(ligand_pdb, argv[2]);
+
+
+
+if (argc == 4){
+    strcpy(ligand_type, "unknown");
+}
+
+if (argc == 5){
+    strcpy(ligand_type, argv[4]);
+}
+
 //processa entreadas
 open_ligand();
 open_protein();
