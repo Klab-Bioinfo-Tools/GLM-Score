@@ -1,0 +1,1101 @@
+ATOM    684  N   ARG A  89     -17.403  31.397  22.547                          
+ATOM    685  CA  ARG A  89     -16.465  31.107  21.505                          
+ATOM    686  C   ARG A  89     -15.254  31.876  21.913                          
+ATOM    687  O   ARG A  89     -15.212  33.097  21.773                          
+ATOM    688  CB  ARG A  89     -16.930  31.617  20.131                          
+ATOM    689  CG  ARG A  89     -18.202  30.929  19.623                          
+ATOM    690  CD  ARG A  89     -18.740  31.531  18.322                          
+ATOM    691  NE  ARG A  89     -19.900  30.712  17.866                          
+ATOM    692  CZ  ARG A  89     -21.170  31.003  18.275                          
+ATOM    693  NH1 ARG A  89     -21.397  32.030  19.144                          
+ATOM    694  NH2 ARG A  89     -22.220  30.263  17.813                          
+ATOM    452  N   ARG A  60     -13.857  45.118  14.304                          
+ATOM    453  CA  ARG A  60     -13.928  43.689  14.445                          
+ATOM    454  C   ARG A  60     -14.887  43.155  13.433                          
+ATOM    455  O   ARG A  60     -15.979  43.688  13.240                          
+ATOM    456  CB  ARG A  60     -14.423  43.184  15.814                          
+ATOM    457  CG  ARG A  60     -13.341  43.100  16.888                          
+ATOM    458  CD  ARG A  60     -13.856  42.610  18.244                          
+ATOM    459  NE  ARG A  60     -14.646  41.367  18.015                          
+ATOM    460  CZ  ARG A  60     -14.909  40.530  19.058                          
+ATOM    461  NH1 ARG A  60     -14.407  40.808  20.296                          
+ATOM    462  NH2 ARG A  60     -15.675  39.416  18.865                          
+ATOM    644  N   SER A  83     -23.199  26.366  19.890                          
+ATOM    645  CA  SER A  83     -24.506  26.878  20.199                          
+ATOM    646  C   SER A  83     -25.033  26.525  21.567                          
+ATOM    647  O   SER A  83     -24.852  27.308  22.478                          
+ATOM    648  CB  SER A  83     -25.536  26.421  19.155                          
+ATOM    649  OG  SER A  83     -26.778  27.064  19.379                          
+ATOM    935  N   ASN A 122     -13.958  33.938  29.726                          
+ATOM    936  CA  ASN A 122     -13.720  34.778  28.583                          
+ATOM    937  C   ASN A 122     -13.890  36.225  28.917                          
+ATOM    938  O   ASN A 122     -13.061  37.051  28.543                          
+ATOM    939  CB  ASN A 122     -14.641  34.488  27.389                          
+ATOM    940  CG  ASN A 122     -14.209  35.403  26.249                          
+ATOM    941  ND2 ASN A 122     -15.204  35.982  25.526                          
+ATOM    942  OD1 ASN A 122     -13.019  35.611  26.016                          
+HETATM    1   N  BLK           -48.110  50.901   7.490                          
+HETATM    2   CA BLK           -48.080  51.070   8.972                          
+HETATM    3   C  BLK           -49.374  51.704   9.478                          
+HETATM    4   O  BLK           -49.598  52.902   9.297                          
+HETATM    5   CB BLK           -46.885  51.931   9.370                          
+HETATM    6   N  BLK           -50.220  50.894  10.113                          
+HETATM    7   CA BLK           -51.497  51.367  10.645                          
+HETATM    8   C  BLK           -51.973  50.543  11.844                          
+HETATM    9   O  BLK           -52.992  50.864  12.460                          
+HETATM   10   CB BLK           -52.607  51.326   9.566                          
+HETATM   11   OG1BLK           -52.661  50.016   8.985                          
+HETATM   12   CG2BLK           -52.345  52.357   8.475                          
+HETATM   13   N  BLK           -51.237  49.484  12.171                          
+HETATM   14   CA BLK           -51.598  48.615  13.289                          
+HETATM   15   C  BLK           -51.352  49.284  14.638                          
+HETATM   16   O  BLK           -50.644  50.285  14.725                          
+HETATM   17   CB BLK           -50.806  47.307  13.212                          
+HETATM   18   CG BLK           -51.013  46.533  11.919                          
+HETATM   19   CD BLK           -50.241  45.222  11.924                          
+HETATM   20   CE BLK           -50.470  44.439  10.638                          
+HETATM   21   NZ BLK           -51.909  44.112  10.426                          
+HETATM   22   N  BLK           -51.941  48.724  15.690                          
+HETATM   23   CA BLK           -51.776  49.272  17.031                          
+HETATM   24   C  BLK           -50.484  48.769  17.664                          
+HETATM   25   O  BLK           -49.805  47.907  17.110                          
+HETATM   26   CB BLK           -52.951  48.878  17.951                          
+HETATM   27   OG1BLK           -52.771  49.479  19.241                          
+HETATM   28   CG2BLK           -53.019  47.366  18.113                          
+HETATM   29   N  BLK           -50.151  49.313  18.828                          
+HETATM   30   CA BLK           -48.944  48.912  19.536                          
+HETATM   31   C  BLK           -48.980  47.427  19.882                          
+HETATM   32   O  BLK           -47.976  46.728  19.743                          
+HETATM   33   CB BLK           -48.781  49.739  20.813                          
+HETATM   34   CG BLK           -48.369  51.173  20.532                          
+HETATM   35   OD1BLK           -48.306  51.998  21.441                          
+HETATM   36   ND2BLK           -48.079  51.474  19.270                          
+HETATM   37   N  BLK           -50.136  46.947  20.329                          
+HETATM   38   CA BLK           -50.280  45.541  20.688                          
+HETATM   39   C  BLK           -50.053  44.626  19.491                          
+HETATM   40   O  BLK           -49.470  43.553  19.628                          
+HETATM   41   CB BLK           -51.665  45.281  21.278                          
+HETATM   42   OG BLK           -51.809  45.932  22.526                          
+HETATM   43   N  BLK           -50.519  45.049  18.321                          
+HETATM   44   CA BLK           -50.354  44.256  17.107                          
+HETATM   45   C  BLK           -48.891  44.232  16.679                          
+HETATM   46   O  BLK           -48.415  43.247  16.111                          
+HETATM   47   CB BLK           -51.212  44.830  15.977                          
+HETATM   48   CG BLK           -52.711  44.685  16.196                          
+HETATM   49   CD BLK           -53.528  45.475  15.187                          
+HETATM   50   OE1BLK           -53.377  45.232  13.969                          
+HETATM   51   OE2BLK           -54.322  46.341  15.615                          
+HETATM   52   N  BLK           -48.184  45.325  16.953                          
+HETATM   53   CA BLK           -46.774  45.430  16.600                          
+HETATM   54   C  BLK           -45.918  44.615  17.564                          
+HETATM   55   O  BLK           -44.975  43.947  17.150                          
+HETATM   56   CB BLK           -46.303  46.900  16.618                          
+HETATM   57   CG1BLK           -47.035  47.686  15.526                          
+HETATM   58   CG2BLK           -44.791  46.972  16.416                          
+HETATM   59   CD1BLK           -46.663  49.152  15.463                          
+HETATM   60   N  BLK           -46.252  44.667  18.849                          
+HETATM   61   CA BLK           -45.501  43.916  19.845                          
+HETATM   62   C  BLK           -45.729  42.418  19.677                          
+HETATM   63   O  BLK           -44.909  41.606  20.104                          
+HETATM   64   CB BLK           -45.901  44.346  21.258                          
+HETATM   65   CG BLK           -45.575  45.785  21.660                          
+HETATM   66   CD1BLK           -45.950  45.990  23.121                          
+HETATM   67   CD2BLK           -44.094  46.071  21.449                          
+HETATM   68   N  BLK           -46.845  42.055  19.054                          
+HETATM   69   CA BLK           -47.158  40.651  18.831                          
+HETATM   70   C  BLK           -46.363  40.115  17.651                          
+HETATM   71   O  BLK           -45.820  39.013  17.711                          
+HETATM   72   CB BLK           -48.652  40.469  18.570                          
+HETATM   73   CG BLK           -49.355  39.664  19.641                          
+HETATM   74   CD BLK           -48.721  38.303  19.842                          
+HETATM   75   OE1BLK           -48.677  37.519  18.870                          
+HETATM   76   OE2BLK           -48.265  38.019  20.970                          
+HETATM   77   N  BLK           -46.295  40.896  16.577                          
+HETATM   78   CA BLK           -45.544  40.482  15.401                          
+HETATM   79   C  BLK           -44.057  40.366  15.721                          
+HETATM   80   O  BLK           -43.387  39.452  15.244                          
+HETATM   81   CB BLK           -45.748  41.469  14.249                          
+HETATM   82   CG BLK           -47.032  41.254  13.466                          
+HETATM   83   CD BLK           -47.048  42.035  12.165                          
+HETATM   84   OE1BLK           -46.162  41.877  11.321                          
+HETATM   85   NE2BLK           -48.060  42.882  11.994                          
+HETATM   86   N  BLK           -43.549  41.296  16.526                          
+HETATM   87   CA BLK           -42.143  41.283  16.913                          
+HETATM   88   C  BLK           -41.845  40.036  17.737                          
+HETATM   89   O  BLK           -40.787  39.423  17.590                          
+HETATM   90   CB BLK           -41.802  42.534  17.724                          
+HETATM   91   CG BLK           -41.905  43.872  16.992                          
+HETATM   92   CD1BLK           -41.757  45.012  17.980                          
+HETATM   93   CD2BLK           -40.844  43.947  15.920                          
+HETATM   94   N  BLK           -42.783  39.660  18.601                          
+HETATM   95   CA BLK           -42.617  38.473  19.431                          
+HETATM   96   C  BLK           -42.569  37.204  18.577                          
+HETATM   97   O  BLK           -41.630  36.411  18.677                          
+HETATM   98   CB BLK           -43.766  38.351  20.437                          
+HETATM   99   CG BLK           -43.697  37.077  21.268                          
+HETATM  100   CD BLK           -44.988  36.808  22.016                          
+HETATM  101   CE BLK           -44.944  35.439  22.685                          
+HETATM  102   NZ BLK           -46.258  35.051  23.275                          
+HETATM  103   N  BLK           -43.585  37.018  17.740                          
+HETATM  104   CA BLK           -43.664  35.843  16.876                          
+HETATM  105   C  BLK           -42.518  35.772  15.878                          
+HETATM  106   O  BLK           -42.177  34.696  15.394                          
+HETATM  107   CB BLK           -44.981  35.829  16.101                          
+HETATM  108   CG BLK           -46.222  35.697  16.954                          
+HETATM  109   CD BLK           -47.466  35.474  16.116                          
+HETATM  110   OE1BLK           -47.813  36.296  15.266                          
+HETATM  111   NE2BLK           -48.141  34.353  16.346                          
+HETATM  112   N  BLK           -41.932  36.918  15.560                          
+HETATM  113   CA BLK           -40.835  36.953  14.607                          
+HETATM  114   C  BLK           -39.486  36.690  15.270                          
+HETATM  115   O  BLK           -38.530  36.308  14.601                          
+HETATM  116   CB BLK           -40.811  38.300  13.890                          
+HETATM  117   N  BLK           -39.415  36.881  16.585                          
+HETATM  118   CA BLK           -38.166  36.681  17.311                          
+HETATM  119   C  BLK           -38.142  35.474  18.252                          
+HETATM  120   O  BLK           -37.077  35.098  18.744                          
+HETATM  121   CB BLK           -37.823  37.944  18.101                          
+HETATM  122   OG BLK           -38.786  38.195  19.110                          
+HETATM  123   N  BLK           -39.302  34.872  18.508                          
+HETATM  124   CA BLK           -39.363  33.708  19.393                          
+HETATM  125   C  BLK           -38.466  32.577  18.902                          
+HETATM  126   O  BLK           -38.466  32.243  17.717                          
+HETATM  127   CB BLK           -40.799  33.183  19.525                          
+HETATM  128   CG BLK           -41.604  33.931  20.577                          
+HETATM  129   OD1BLK           -40.986  34.524  21.492                          
+HETATM  130   OD2BLK           -42.855  33.907  20.500                          
+HETATM  131   N  BLK           -37.700  32.001  19.824                          
+HETATM  132   CA BLK           -36.809  30.906  19.482                          
+HETATM  133   C  BLK           -35.541  31.334  18.773                          
+HETATM  134   O  BLK           -34.650  30.520  18.534                          
+HETATM  135   N  BLK           -35.454  32.614  18.434                          
+HETATM  136   CA BLK           -34.283  33.139  17.744                          
+HETATM  137   C  BLK           -33.212  33.610  18.739                          
+HETATM  138   O  BLK           -33.528  34.201  19.772                          
+HETATM  139   CB BLK           -34.706  34.296  16.840                          
+HETATM  140   CG BLK           -33.686  34.784  15.816                          
+HETATM  141   CD1BLK           -33.294  33.625  14.906                          
+HETATM  142   CD2BLK           -34.286  35.927  15.004                          
+HETATM  143   N  BLK           -31.949  33.339  18.429                          
+HETATM  144   CA BLK           -30.849  33.742  19.301                          
+HETATM  145   C  BLK           -29.832  34.590  18.541                          
+HETATM  146   O  BLK           -29.373  34.204  17.463                          
+HETATM  147   CB BLK           -30.139  32.508  19.873                          
+HETATM  148   CG BLK           -30.911  31.532  20.770                          
+HETATM  149   CD1BLK           -30.008  30.358  21.125                          
+HETATM  150   CD2BLK           -31.386  32.239  22.031                          
+HETATM  151   N  BLK           -29.477  35.746  19.092                          
+HETATM  152   CA BLK           -28.493  36.586  18.429                          
+HETATM  153   C  BLK           -27.103  36.067  18.801                          
+HETATM  154   O  BLK           -26.792  35.889  19.981                          
+HETATM  155   CB BLK           -28.634  38.051  18.842                          
+HETATM  156   CG BLK           -27.847  38.983  17.974                          
+HETATM  157   CD1BLK           -28.298  39.309  16.699                          
+HETATM  158   CD2BLK           -26.614  39.472  18.395                          
+HETATM  159   CE1BLK           -27.531  40.104  15.850                          
+HETATM  160   CE2BLK           -25.834  40.269  17.554                          
+HETATM  161   CZ BLK           -26.293  40.585  16.278                          
+HETATM  162   N  BLK           -26.271  35.822  17.786                          
+HETATM  163   N  BLK           -26.273  35.816  17.794                          
+HETATM  164   CA BLK           -24.919  35.291  17.979                          
+HETATM  165   CA BLK           -24.943  35.275  18.033                          
+HETATM  166   C  BLK           -23.810  36.326  18.035                          
+HETATM  167   C  BLK           -23.826  36.307  18.047                          
+HETATM  168   O  BLK           -23.806  37.321  17.306                          
+HETATM  169   O  BLK           -23.831  37.283  17.299                          
+HETATM  170   CB BLK           -24.562  34.278  16.867                          
+HETATM  171   CB BLK           -24.618  34.195  16.990                          
+HETATM  172   CG BLK           -23.123  33.698  16.948                          
+HETATM  173   CG BLK           -25.668  33.083  16.885                          
+HETATM  174   SD BLK           -22.668  32.451  15.681                          
+HETATM  175   SD BLK           -26.026  32.285  18.466                          
+HETATM  176   CE BLK           -21.534  33.330  14.693                          
+HETATM  177   CE BLK           -25.110  30.833  18.338                          
+HETATM  178   N  BLK           -22.862  36.060  18.919                          
+HETATM  179   CA BLK           -21.677  36.887  19.094                          
+HETATM  180   C  BLK           -20.703  35.870  19.670                          
+HETATM  181   O  BLK           -20.659  34.738  19.199                          
+HETATM  182   CB BLK           -21.951  38.025  20.085                          
+HETATM  183   OG BLK           -22.397  37.530  21.336                          
+HETATM  184   N  BLK           -19.921  36.244  20.671                          
+HETATM  185   CA BLK           -19.043  35.260  21.273                          
+HETATM  186   C  BLK           -19.952  34.329  22.069                          
+HETATM  187   O  BLK           -19.604  33.177  22.349                          
+HETATM  188   CB BLK           -18.021  35.936  22.182                          
+HETATM  189   CG BLK           -16.748  36.272  21.453                          
+HETATM  190   CD BLK           -15.888  37.245  22.208                          
+HETATM  191   OE1BLK           -15.773  37.101  23.443                          
+HETATM  192   OE2BLK           -15.319  38.146  21.557                          
+HETATM  193   N  BLK           -21.129  34.850  22.408                          
+HETATM  194   CA BLK           -22.144  34.116  23.153                          
+HETATM  195   C  BLK           -23.458  34.188  22.377                          
+HETATM  196   O  BLK           -23.474  34.609  21.220                          
+HETATM  197   CB BLK           -22.336  34.730  24.540                          
+HETATM  198   OG BLK           -23.250  33.965  25.308                          
+HETATM  199   N  BLK           -24.553  33.789  23.018                          
+HETATM  200   CA BLK           -25.869  33.803  22.387                          
+HETATM  201   C  BLK           -26.966  34.264  23.351                          
+HETATM  202   O  BLK           -27.031  33.816  24.494                          
+HETATM  203   CB BLK           -26.211  32.404  21.865                          
+HETATM  204   CG BLK           -26.177  31.328  22.944                          
+HETATM  205   CD BLK           -26.627  29.964  22.442                          
+HETATM  206   OE1BLK           -26.042  29.472  21.453                          
+HETATM  207   OE2BLK           -27.563  29.384  23.039                          
+HETATM  208   N  BLK           -27.833  35.154  22.884                          
+HETATM  209   CA BLK           -28.918  35.644  23.722                          
+HETATM  210   C  BLK           -30.252  35.735  22.999                          
+HETATM  211   O  BLK           -30.305  35.842  21.776                          
+HETATM  212   CB BLK           -28.581  37.021  24.298                          
+HETATM  213   CG BLK           -27.495  37.002  25.343                          
+HETATM  214   CD1BLK           -26.153  37.140  24.989                          
+HETATM  215   CD2BLK           -27.811  36.856  26.693                          
+HETATM  216   CE1BLK           -25.152  37.140  25.953                          
+HETATM  217   CE2BLK           -26.816  36.853  27.670                          
+HETATM  218   CZ BLK           -25.489  36.998  27.292                          
+HETATM  219   OH BLK           -24.507  37.012  28.253                          
+HETATM  220   N  BLK           -31.356  35.681  23.758                          
+HETATM  221   CA BLK           -32.700  35.768  23.181                          
+HETATM  222   C  BLK           -33.006  37.234  22.926                          
+HETATM  223   O  BLK           -32.199  38.106  23.234                          
+HETATM  224   CB BLK           -33.605  35.216  24.286                          
+HETATM  225   CG BLK           -32.663  34.521  25.243                          
+HETATM  226   CD BLK           -31.427  35.357  25.191                          
+HETATM  227   N  BLK           -34.177  37.500  22.370                          
+HETATM  228   CA BLK           -34.607  38.865  22.117                          
+HETATM  229   C  BLK           -35.714  39.200  23.109                          
+HETATM  230   O  BLK           -36.411  38.309  23.595                          
+HETATM  231   CB BLK           -35.143  39.002  20.693                          
+HETATM  232   CG BLK           -34.077  39.204  19.663                          
+HETATM  233   CD1BLK           -33.395  40.416  19.579                          
+HETATM  234   CD2BLK           -33.747  38.184  18.775                          
+HETATM  235   CE1BLK           -32.402  40.611  18.626                          
+HETATM  236   CE2BLK           -32.752  38.370  17.816                          
+HETATM  237   CZ BLK           -32.079  39.587  17.742                          
+HETATM  238   N  BLK           -35.858  40.482  23.418                          
+HETATM  239   CA BLK           -36.902  40.948  24.325                          
+HETATM  240   C  BLK           -37.687  42.037  23.614                          
+HETATM  241   O  BLK           -37.112  43.020  23.151                          
+HETATM  242   CB BLK           -36.303  41.525  25.609                          
+HETATM  243   CG BLK           -35.930  40.500  26.658                          
+HETATM  244   CD BLK           -35.338  41.144  27.902                          
+HETATM  245   OE1BLK           -34.207  41.677  27.817                          
+HETATM  246   OE2BLK           -36.005  41.125  28.961                          
+HETATM  247   N  BLK           -38.998  41.856  23.512                          
+HETATM  248   CA BLK           -39.839  42.851  22.865                          
+HETATM  249   C  BLK           -40.124  43.931  23.900                          
+HETATM  250   O  BLK           -40.379  43.627  25.063                          
+HETATM  251   CB BLK           -41.167  42.234  22.387                          
+HETATM  252   CG1BLK           -41.997  43.282  21.677                          
+HETATM  253   CG2BLK           -40.892  41.068  21.457                          
+HETATM  254   N  BLK           -40.067  45.192  23.488                          
+HETATM  255   CA BLK           -40.324  46.278  24.420                          
+HETATM  256   C  BLK           -41.102  47.424  23.783                          
+HETATM  257   O  BLK           -41.223  47.515  22.561                          
+HETATM  258   CB BLK           -38.999  46.794  25.003                          
+HETATM  259   CG BLK           -38.176  47.609  24.037                          
+HETATM  260   CD1BLK           -38.474  48.948  23.801                          
+HETATM  261   CD2BLK           -37.102  47.035  23.363                          
+HETATM  262   CE1BLK           -37.713  49.703  22.907                          
+HETATM  263   CE2BLK           -36.335  47.780  22.466                          
+HETATM  264   CZ BLK           -36.641  49.116  22.238                          
+HETATM  265   N  BLK           -41.633  48.294  24.636                          
+HETATM  266   CA BLK           -42.393  49.457  24.201                          
+HETATM  267   C  BLK           -42.431  50.437  25.365                          
+HETATM  268   O  BLK           -43.058  50.178  26.390                          
+HETATM  269   CB BLK           -43.810  49.044  23.795                          
+HETATM  270   CG BLK           -44.733  50.150  23.277                          
+HETATM  271   CD1BLK           -45.809  49.547  22.387                          
+HETATM  272   CD2BLK           -45.352  50.896  24.448                          
+HETATM  273   N  BLK           -41.747  51.562  25.207                          
+HETATM  274   CA BLK           -41.691  52.560  26.261                          
+HETATM  275   C  BLK           -42.933  53.444  26.301                          
+HETATM  276   O  BLK           -43.164  54.259  25.406                          
+HETATM  277   CB BLK           -40.427  53.405  26.098                          
+HETATM  278   CG BLK           -39.169  52.575  26.090                          
+HETATM  279   CD1BLK           -38.936  51.432  26.807                          
+HETATM  280   CD2BLK           -37.962  52.840  25.360                          
+HETATM  281   NE1BLK           -37.663  50.972  26.570                          
+HETATM  282   CE2BLK           -37.043  51.816  25.687                          
+HETATM  283   CE3BLK           -37.567  53.842  24.464                          
+HETATM  284   CZ2BLK           -35.753  51.767  25.149                          
+HETATM  285   CZ3BLK           -36.284  53.791  23.930                          
+HETATM  286   CH2BLK           -35.394  52.760  24.275                          
+HETATM  287   N  BLK           -43.728  53.260  27.352                          
+HETATM  288   CA BLK           -44.962  54.012  27.553                          
+HETATM  289   C  BLK           -44.743  55.520  27.489                          
+HETATM  290   O  BLK           -43.944  56.071  28.248                          
+HETATM  291   CB BLK           -45.579  53.653  28.907                          
+HETATM  292   CG BLK           -45.986  52.195  29.052                          
+HETATM  293   CD BLK           -47.059  51.792  28.063                          
+HETATM  294   OE1BLK           -48.107  52.471  28.012                          
+HETATM  295   OE2BLK           -46.860  50.794  27.339                          
+HETATM  296   N  BLK           -45.463  56.180  26.587                          
+HETATM  297   CA BLK           -45.336  57.619  26.445                          
+HETATM  298   C  BLK           -43.897  58.050  26.246                          
+HETATM  299   O  BLK           -43.275  58.610  27.149                          
+HETATM  300   N  BLK           -43.367  57.787  25.057                          
+HETATM  301   CA BLK           -41.992  58.143  24.734                          
+HETATM  302   C  BLK           -41.916  59.059  23.514                          
+HETATM  303   O  BLK           -42.538  58.798  22.483                          
+HETATM  304   CB BLK           -41.171  56.871  24.491                          
+HETATM  305   OG BLK           -41.820  56.008  23.572                          
+HETATM  306   N  BLK           -41.148  60.137  23.644                          
+HETATM  307   CA BLK           -40.988  61.101  22.563                          
+HETATM  308   C  BLK           -40.346  60.448  21.345                          
+HETATM  309   O  BLK           -39.240  59.920  21.428                          
+HETATM  310   CB BLK           -40.136  62.279  23.036                          
+HETATM  311   N  BLK           -41.039  60.479  20.196                          
+HETATM  312   CA BLK           -40.558  59.897  18.940                          
+HETATM  313   C  BLK           -39.094  60.207  18.621                          
+HETATM  314   O  BLK           -38.364  59.336  18.148                          
+HETATM  315   CB BLK           -41.517  60.477  17.909                          
+HETATM  316   CG BLK           -42.803  60.508  18.666                          
+HETATM  317   CD BLK           -42.378  61.069  20.013                          
+HETATM  318   N  BLK           -38.648  61.454  18.858                          
+HETATM  319   CA BLK           -37.246  61.777  18.564                          
+HETATM  320   C  BLK           -36.305  61.030  19.512                          
+HETATM  321   O  BLK           -35.969  61.529  20.588                          
+HETATM  322   CB BLK           -37.188  63.290  18.769                          
+HETATM  323   CG BLK           -38.587  63.730  18.457                          
+HETATM  324   CD BLK           -39.408  62.680  19.158                          
+HETATM  325   N  BLK           -35.886  59.803  19.169                          
+HETATM  326   CA BLK           -34.998  59.013  20.046                          
+HETATM  327   C  BLK           -33.684  59.749  20.448                          
+HETATM  328   O  BLK           -32.827  59.933  19.590                          
+HETATM  329   CB BLK           -34.624  57.701  19.351                          
+HETATM  330   CG1BLK           -33.729  56.853  20.237                          
+HETATM  331   CG2BLK           -35.883  56.933  18.956                          
+HETATM  332   N  BLK           -33.539  60.217  21.698                          
+HETATM  333   CA BLK           -32.305  60.852  22.140                          
+HETATM  334   C  BLK           -31.618  59.856  23.051                          
+HETATM  335   O  BLK           -32.277  59.145  23.822                          
+HETATM  336   CB BLK           -32.480  62.134  22.995                          
+HETATM  337   OG1BLK           -33.078  61.796  24.257                          
+HETATM  338   CG2BLK           -33.358  63.137  22.267                          
+HETATM  339   N  BLK           -30.311  59.786  22.965                          
+HETATM  340   CA BLK           -29.546  58.861  23.785                          
+HETATM  341   C  BLK           -29.867  59.053  25.261                          
+HETATM  342   O  BLK           -29.687  58.140  26.065                          
+HETATM  343   CB BLK           -28.073  58.977  23.487                          
+HETATM  344   CG BLK           -27.424  60.245  24.089                          
+HETATM  345   ND1BLK           -27.151  60.389  25.433                          
+HETATM  346   CD2BLK           -26.979  61.376  23.491                          
+HETATM  347   CE1BLK           -26.562  61.554  25.637                          
+HETATM  348   NE2BLK           -26.446  62.172  24.475                          
+HETATM  349   N  BLK           -30.361  60.236  25.613                          
+HETATM  350   CA BLK           -30.728  60.508  26.995                          
+HETATM  351   C  BLK           -31.951  59.664  27.323                          
+HETATM  352   O  BLK           -32.086  59.156  28.435                          
+HETATM  353   CB BLK           -31.047  61.995  27.201                          
+HETATM  354   CG BLK           -29.819  62.906  27.242                          
+HETATM  355   CD BLK           -29.319  63.311  25.863                          
+HETATM  356   OE1BLK           -29.630  62.610  24.878                          
+HETATM  357   OE2BLK           -28.601  64.329  25.765                          
+HETATM  358   N  BLK           -32.835  59.513  26.339                          
+HETATM  359   CA BLK           -34.049  58.719  26.508                          
+HETATM  360   C  BLK           -33.701  57.239  26.630                          
+HETATM  361   O  BLK           -34.214  56.541  27.508                          
+HETATM  362   CB BLK           -35.019  58.893  25.309                          
+HETATM  363   CG1BLK           -35.563  60.323  25.275                          
+HETATM  364   CG2BLK           -36.169  57.895  25.416                          
+HETATM  365   CD1BLK           -36.520  60.589  24.129                          
+HETATM  366   N  BLK           -32.830  56.768  25.741                          
+HETATM  367   CA BLK           -32.406  55.374  25.739                          
+HETATM  368   C  BLK           -31.837  54.987  27.103                          
+HETATM  369   O  BLK           -32.233  53.981  27.689                          
+HETATM  370   CB BLK           -31.332  55.119  24.655                          
+HETATM  371   CG1BLK           -30.959  53.644  24.626                          
+HETATM  372   CG2BLK           -31.850  55.560  23.298                          
+HETATM  373   N  BLK           -30.913  55.797  27.606                          
+HETATM  374   CA BLK           -30.295  55.540  28.901                          
+HETATM  375   C  BLK           -31.335  55.597  30.019                          
+HETATM  376   O  BLK           -31.297  54.804  30.958                          
+HETATM  377   CB BLK           -29.187  56.569  29.168                          
+HETATM  378   CG BLK           -28.109  56.705  28.084                          
+HETATM  379   CD1BLK           -27.151  57.833  28.444                          
+HETATM  380   CD2BLK           -27.360  55.394  27.926                          
+HETATM  381   N  BLK           -32.267  56.535  29.906                          
+HETATM  382   CA BLK           -33.314  56.703  30.906                          
+HETATM  383   C  BLK           -34.271  55.511  30.945                          
+HETATM  384   O  BLK           -34.568  54.979  32.018                          
+HETATM  385   CB BLK           -34.092  57.985  30.649                          
+HETATM  386   N  BLK           -34.742  55.094  29.773                          
+HETATM  387   CA BLK           -35.677  53.976  29.664                          
+HETATM  388   C  BLK           -35.056  52.602  29.906                          
+HETATM  389   O  BLK           -35.772  51.630  30.146                          
+HETATM  390   CB BLK           -36.351  54.001  28.289                          
+HETATM  391   CG BLK           -37.368  55.122  28.128                          
+HETATM  392   CD BLK           -38.690  54.818  28.816                          
+HETATM  393   OE1BLK           -38.728  54.159  29.855                          
+HETATM  394   NE2BLK           -39.779  55.311  28.242                          
+HETATM  395   N  BLK           -33.730  52.520  29.846                          
+HETATM  396   CA BLK           -33.044  51.251  30.062                          
+HETATM  397   C  BLK           -32.329  51.220  31.407                          
+HETATM  398   O  BLK           -32.061  50.149  31.951                          
+HETATM  399   CB BLK           -32.015  50.966  28.946                          
+HETATM  400   OG1BLK           -30.985  51.961  28.970                          
+HETATM  401   CG2BLK           -32.695  50.977  27.585                          
+HETATM  402   N  BLK           -32.021  52.398  31.938                          
+HETATM  403   CA BLK           -31.345  52.450  33.219                          
+HETATM  404   C  BLK           -29.863  52.076  33.147                          
+HETATM  405   O  BLK           -29.414  51.170  33.827                          
+HETATM  406   N  BLK           -29.257  52.732  32.232                          
+HETATM  407   CA BLK           -27.854  52.705  32.061                          
+HETATM  408   C  BLK           -27.564  54.095  32.364                          
+HETATM  409   O  BLK           -28.393  54.979  32.131                          
+HETATM  410   CB BLK           -27.357  52.522  30.653                          
+HETATM  411   CG BLK           -27.607  51.107  30.188                          
+HETATM  412   ND1BLK           -28.886  50.628  29.997                          
+HETATM  413   CD2BLK           -26.774  50.087  29.877                          
+HETATM  414   CE1BLK           -28.827  49.372  29.624                          
+HETATM  415   NE2BLK           -27.557  49.020  29.544                          
+HETATM  416   N  BLK           -26.418  54.272  32.862                          
+HETATM  417   CA BLK           -26.127  55.557  33.267                          
+HETATM  418   C  BLK           -25.497  56.443  32.236                          
+HETATM  419   O  BLK           -24.618  56.078  31.458                          
+HETATM  420   N  BLK           -25.987  57.633  32.347                          
+HETATM  421   CA BLK           -25.487  58.709  31.604                          
+HETATM  422   C  BLK           -24.020  58.556  31.365                          
+HETATM  423   O  BLK           -23.583  58.785  30.241                          
+HETATM  424   CB BLK           -25.770  60.012  32.324                          
+HETATM  425   N  BLK           -23.255  58.184  32.336                          
+HETATM  426   CA BLK           -21.879  58.090  31.913                          
+HETATM  427   C  BLK           -21.519  56.752  31.257                          
+HETATM  428   O  BLK           -20.482  56.189  31.604                          
+HETATM  429   CB BLK           -20.962  58.360  33.091                          
+HETATM  430   CG BLK           -21.125  57.363  34.201                          
+HETATM  431   OD1BLK           -21.095  56.154  33.908                          
+HETATM  432   OD2BLK           -21.287  57.795  35.368                          
+HETATM  433   N  BLK           -22.296  56.204  30.317                          
+HETATM  434   CA BLK           -21.929  54.876  29.806                          
+HETATM  435   C  BLK           -21.798  54.777  28.314                          
+HETATM  436   O  BLK           -22.470  55.448  27.549                          
+HETATM  437   CB BLK           -22.946  53.850  30.299                          
+HETATM  438   N  BLK           -20.890  53.896  27.928                          
+HETATM  439   CA BLK           -20.502  53.790  26.518                          
+HETATM  440   C  BLK           -21.736  53.829  25.623                          
+HETATM  441   O  BLK           -22.732  53.145  25.876                          
+HETATM  442   CB BLK           -19.774  52.455  26.467                          
+HETATM  443   CG BLK           -19.091  52.423  27.797                          
+HETATM  444   CD BLK           -20.032  53.072  28.769                          
+HETATM  445   N  BLK           -21.655  54.626  24.567                          
+HETATM  446   CA BLK           -22.777  54.810  23.664                          
+HETATM  447   C  BLK           -22.364  54.742  22.193                          
+HETATM  448   O  BLK           -21.366  55.340  21.794                          
+HETATM  449   CB BLK           -23.409  56.166  23.984                          
+HETATM  450   CG BLK           -24.553  56.528  23.102                          
+HETATM  451   CD1BLK           -25.737  55.810  23.156                          
+HETATM  452   CD2BLK           -24.444  57.589  22.210                          
+HETATM  453   CE1BLK           -26.799  56.142  22.333                          
+HETATM  454   CE2BLK           -25.499  57.930  21.381                          
+HETATM  455   CZ BLK           -26.681  57.204  21.440                          
+HETATM  456   N  BLK           -23.139  54.016  21.393                          
+HETATM  457   CA BLK           -22.857  53.870  19.965                          
+HETATM  458   C  BLK           -24.113  53.602  19.146                          
+HETATM  459   O  BLK           -24.925  52.746  19.497                          
+HETATM  460   CB BLK           -21.865  52.727  19.733                          
+HETATM  461   CG BLK           -21.824  52.226  18.290                          
+HETATM  462   CD BLK           -21.005  53.126  17.380                          
+HETATM  463   CE BLK           -19.529  52.766  17.450                          
+HETATM  464   NZ BLK           -19.300  51.346  17.051                          
+HETATM  465   N  BLK           -24.256  54.327  18.042                          
+HETATM  466   CA BLK           -25.404  54.166  17.157                          
+HETATM  467   C  BLK           -24.960  53.594  15.815                          
+HETATM  468   O  BLK           -23.985  54.063  15.230                          
+HETATM  469   CB BLK           -26.115  55.519  16.899                          
+HETATM  470   CG1BLK           -27.281  55.324  15.941                          
+HETATM  471   CG2BLK           -26.601  56.111  18.211                          
+HETATM  472   N  BLK           -25.672  52.575  15.338                          
+HETATM  473   CA BLK           -25.372  51.944  14.052                          
+HETATM  474   C  BLK           -26.687  51.715  13.314                          
+HETATM  475   O  BLK           -27.735  51.574  13.945                          
+HETATM  476   CB BLK           -24.658  50.573  14.226                          
+HETATM  477   CG1BLK           -23.358  50.754  14.987                          
+HETATM  478   CG2BLK           -25.571  49.588  14.948                          
+HETATM  479   N  BLK           -26.643  51.680  11.986                          
+HETATM  480   CA BLK           -27.868  51.466  11.227                          
+HETATM  481   C  BLK           -28.260  49.996  11.279                          
+HETATM  482   O  BLK           -27.405  49.109  11.296                          
+HETATM  483   CB BLK           -27.707  51.932   9.776                          
+HETATM  484   CG BLK           -26.686  51.126   9.017                          
+HETATM  485   OD1BLK           -25.543  51.014   9.511                          
+HETATM  486   OD2BLK           -27.028  50.613   7.926                          
+HETATM  487   N  BLK           -29.567  49.757  11.307                          
+HETATM  488   CA BLK           -30.130  48.419  11.398                          
+HETATM  489   C  BLK           -29.557  47.390  10.421                          
+HETATM  490   O  BLK           -29.304  46.246  10.801                          
+HETATM  491   CB BLK           -31.672  48.483  11.249                          
+HETATM  492   CG1BLK           -32.295  47.164  11.699                          
+HETATM  493   CG2BLK           -32.050  48.801   9.816                          
+HETATM  494   CD1BLK           -33.797  47.217  11.817                          
+HETATM  495   N  BLK           -29.341  47.787   9.172                          
+HETATM  496   CA BLK           -28.804  46.864   8.178                          
+HETATM  497   C  BLK           -27.416  46.357   8.526                          
+HETATM  498   O  BLK           -27.134  45.169   8.380                          
+HETATM  499   CB BLK           -28.769  47.523   6.803                          
+HETATM  500   CG BLK           -30.148  47.853   6.290                          
+HETATM  501   OD1BLK           -30.994  46.934   6.253                          
+HETATM  502   OD2BLK           -30.379  49.026   5.926                          
+HETATM  503   N  BLK           -26.548  47.254   8.978                          
+HETATM  504   CA BLK           -25.190  46.871   9.338                          
+HETATM  505   C  BLK           -25.190  45.911  10.516                          
+HETATM  506   O  BLK           -24.407  44.962  10.554                          
+HETATM  507   CB BLK           -24.369  48.110   9.682                          
+HETATM  508   OG BLK           -24.314  48.985   8.570                          
+HETATM  509   N  BLK           -26.082  46.155  11.470                          
+HETATM  510   CA BLK           -26.178  45.313  12.653                          
+HETATM  511   C  BLK           -26.615  43.884  12.327                          
+HETATM  512   O  BLK           -26.004  42.923  12.786                          
+HETATM  513   CB BLK           -27.154  45.924  13.659                          
+HETATM  514   CG BLK           -27.216  45.184  14.958                          
+HETATM  515   CD1BLK           -26.132  45.196  15.829                          
+HETATM  516   CD2BLK           -28.334  44.431  15.291                          
+HETATM  517   CE1BLK           -26.159  44.465  17.013                          
+HETATM  518   CE2BLK           -28.373  43.697  16.470                          
+HETATM  519   CZ BLK           -27.282  43.712  17.334                          
+HETATM  520   N  BLK           -27.676  43.745  11.540                          
+HETATM  521   CA BLK           -28.185  42.424  11.171                          
+HETATM  522   C  BLK           -27.523  41.861   9.919                          
+HETATM  523   O  BLK           -27.989  40.863   9.364                          
+HETATM  524   CB BLK           -29.697  42.484  10.942                          
+HETATM  525   CG BLK           -30.494  42.670  12.195                          
+HETATM  526   CD1BLK           -30.432  41.728  13.218                          
+HETATM  527   CD2BLK           -31.316  43.778  12.354                          
+HETATM  528   CE1BLK           -31.182  41.889  14.386                          
+HETATM  529   CE2BLK           -32.070  43.949  13.516                          
+HETATM  530   CZ BLK           -32.003  43.002  14.533                          
+HETATM  531   N  BLK           -26.441  42.497   9.483                          
+HETATM  532   CA BLK           -25.732  42.073   8.282                          
+HETATM  533   C  BLK           -25.273  40.616   8.321                          
+HETATM  534   O  BLK           -25.609  39.837   7.432                          
+HETATM  535   CB BLK           -24.532  42.987   8.035                          
+HETATM  536   OG BLK           -23.965  42.728   6.765                          
+HETATM  537   N  BLK           -24.505  40.248   9.341                          
+HETATM  538   CA BLK           -24.024  38.873   9.464                          
+HETATM  539   C  BLK           -25.186  37.894   9.630                          
+HETATM  540   O  BLK           -25.156  36.782   9.098                          
+HETATM  541   CB BLK           -23.081  38.732  10.666                          
+HETATM  542   CG BLK           -21.781  39.520  10.562                          
+HETATM  543   CD BLK           -20.902  39.028   9.415                          
+HETATM  544   NE BLK           -19.665  39.797   9.311                          
+HETATM  545   CZ BLK           -18.816  39.722   8.288                          
+HETATM  546   NH1BLK           -19.068  38.907   7.270                          
+HETATM  547   NH2BLK           -17.716  40.467   8.277                          
+HETATM  548   N  BLK           -26.210  38.317  10.363                          
+HETATM  549   CA BLK           -27.371  37.475  10.626                          
+HETATM  550   C  BLK           -28.236  37.180   9.407                          
+HETATM  551   O  BLK           -28.884  36.134   9.347                          
+HETATM  552   CB BLK           -28.223  38.106  11.712                          
+HETATM  553   N  BLK           -28.245  38.093   8.440                          
+HETATM  554   CA BLK           -29.065  37.922   7.245                          
+HETATM  555   C  BLK           -28.297  37.662   5.950                          
+HETATM  556   O  BLK           -28.900  37.577   4.881                          
+HETATM  557   CB BLK           -29.958  39.156   7.012                          
+HETATM  558   OG1BLK           -29.130  40.308   6.813                          
+HETATM  559   CG2BLK           -30.870  39.388   8.207                          
+HETATM  560   N  BLK           -26.979  37.539   6.029                          
+HETATM  561   CA BLK           -26.194  37.300   4.826                          
+HETATM  562   C  BLK           -25.752  35.846   4.717                          
+HETATM  563   O  BLK           -24.949  35.368   5.511                          
+HETATM  564   CB BLK           -24.948  38.210   4.782                          
+HETATM  565   OG1BLK           -25.360  39.581   4.821                          
+HETATM  566   CG2BLK           -24.146  37.961   3.505                          
+HETATM  567   N  BLK           -26.273  35.124   3.719                          
+HETATM  568   CA BLK           -25.899  33.719   3.543                          
+HETATM  569   C  BLK           -24.432  33.570   3.148                          
+HETATM  570   O  BLK           -23.852  34.469   2.544                          
+HETATM  571   CB BLK           -26.848  33.249   2.445                          
+HETATM  572   CG BLK           -27.001  34.480   1.602                          
+HETATM  573   CD BLK           -27.183  35.564   2.647                          
+HETATM  574   N  BLK           -23.833  32.441   3.509                          
+HETATM  575   CA BLK           -22.441  32.184   3.170                          
+HETATM  576   C  BLK           -22.289  30.831   2.482                          
+HETATM  577   O  BLK           -23.143  29.952   2.613                          
+HETATM  578   CB BLK           -21.563  32.262   4.420                          
+HETATM  579   CG BLK           -21.470  33.671   4.991                          
+HETATM  580   CD BLK           -20.483  33.779   6.133                          
+HETATM  581   OE1BLK           -19.287  33.525   5.963                          
+HETATM  582   NE2BLK           -20.976  34.157   7.307                          
+HETATM  583   N  BLK           -21.193  30.680   1.743                          
+HETATM  584   CA BLK           -20.917  29.463   0.989                          
+HETATM  585   C  BLK           -20.889  28.180   1.810                          
+HETATM  586   O  BLK           -21.257  27.118   1.310                          
+HETATM  587   CB BLK           -19.598  29.615   0.212                          
+HETATM  588   CG BLK           -18.404  29.884   1.118                          
+HETATM  589   OD1BLK           -17.943  28.947   1.806                          
+HETATM  590   OD2BLK           -17.926  31.037   1.146                          
+HETATM  591   N  BLK           -20.470  28.272   3.068                          
+HETATM  592   CA BLK           -20.391  27.089   3.915                          
+HETATM  593   C  BLK           -21.663  26.750   4.694                          
+HETATM  594   O  BLK           -21.709  25.735   5.375                          
+HETATM  595   CB BLK           -19.224  27.217   4.890                          
+HETATM  596   CG BLK           -19.253  28.467   5.709                          
+HETATM  597   CD1BLK           -18.801  29.701   5.344                          
+HETATM  598   CD2BLK           -19.762  28.602   7.037                          
+HETATM  599   NE1BLK           -18.994  30.601   6.365                          
+HETATM  600   CE2BLK           -19.583  29.952   7.418                          
+HETATM  601   CE3BLK           -20.353  27.713   7.944                          
+HETATM  602   CZ2BLK           -19.973  30.434   8.670                          
+HETATM  603   CZ3BLK           -20.740  28.190   9.185                          
+HETATM  604   CH2BLK           -20.548  29.541   9.537                          
+HETATM  605   N  BLK           -22.691  27.587   4.592                          
+HETATM  606   CA BLK           -23.945  27.337   5.299                          
+HETATM  607   C  BLK           -24.692  26.109   4.781                          
+HETATM  608   O  BLK           -24.696  25.835   3.582                          
+HETATM  609   CB BLK           -24.889  28.538   5.176                          
+HETATM  610   CG BLK           -24.566  29.721   6.060                          
+HETATM  611   CD1BLK           -23.486  29.693   6.947                          
+HETATM  612   CD2BLK           -25.366  30.861   6.033                          
+HETATM  613   CE1BLK           -23.218  30.772   7.787                          
+HETATM  614   CE2BLK           -25.106  31.942   6.864                          
+HETATM  615   CZ BLK           -24.032  31.893   7.739                          
+HETATM  616   OH BLK           -23.774  32.969   8.554                          
+HETATM  617   N  BLK           -25.325  25.380   5.697                          
+HETATM  618   CA BLK           -26.128  24.215   5.352                          
+HETATM  619   C  BLK           -27.538  24.470   5.885                          
+HETATM  620   O  BLK           -27.893  25.618   6.151                          
+HETATM  621   CB BLK           -25.544  22.941   5.963                          
+HETATM  622   CG BLK           -24.303  22.420   5.252                          
+HETATM  623   CD BLK           -24.528  22.219   3.762                          
+HETATM  624   OE1BLK           -25.645  21.822   3.370                          
+HETATM  625   OE2BLK           -23.584  22.444   2.976                          
+HETATM  626   N  BLK           -28.340  23.422   6.051                          
+HETATM  627   CA BLK           -29.711  23.603   6.534                          
+HETATM  628   C  BLK           -29.823  24.395   7.831                          
+HETATM  629   O  BLK           -30.623  25.327   7.925                          
+HETATM  630   CB BLK           -30.411  22.256   6.730                          
+HETATM  631   CG BLK           -30.593  21.493   5.434                          
+HETATM  632   OD1BLK           -30.379  22.076   4.348                          
+HETATM  633   OD2BLK           -30.962  20.301   5.507                          
+HETATM  634   N  BLK           -29.029  24.022   8.832                          
+HETATM  635   CA BLK           -29.080  24.703  10.124                          
+HETATM  636   C  BLK           -28.877  26.204  10.003                          
+HETATM  637   O  BLK           -29.680  26.986  10.506                          
+HETATM  638   CB BLK           -28.043  24.114  11.093                          
+HETATM  639   CG BLK           -27.878  24.917  12.382                          
+HETATM  640   CD BLK           -27.135  24.153  13.463                          
+HETATM  641   OE1BLK           -26.157  23.441  13.136                          
+HETATM  642   OE2BLK           -27.520  24.273  14.648                          
+HETATM  643   N  BLK           -27.804  26.606   9.332                          
+HETATM  644   CA BLK           -27.518  28.023   9.164                          
+HETATM  645   C  BLK           -28.512  28.728   8.240                          
+HETATM  646   O  BLK           -28.857  29.880   8.477                          
+HETATM  647   CB BLK           -26.088  28.223   8.647                          
+HETATM  648   CG BLK           -25.000  27.793   9.626                          
+HETATM  649   CD BLK           -24.623  26.321   9.497                          
+HETATM  650   OE1BLK           -25.295  25.581   8.744                          
+HETATM  651   OE2BLK           -23.645  25.903  10.152                          
+HETATM  652   N  BLK           -28.975  28.046   7.193                          
+HETATM  653   CA BLK           -29.931  28.661   6.266                          
+HETATM  654   C  BLK           -31.282  28.952   6.923                          
+HETATM  655   O  BLK           -31.898  29.982   6.652                          
+HETATM  656   CB BLK           -30.126  27.787   5.022                          
+HETATM  657   CG BLK           -28.909  27.798   4.109                          
+HETATM  658   OD1BLK           -28.255  28.831   3.944                          
+HETATM  659   ND2BLK           -28.607  26.655   3.501                          
+HETATM  660   N  BLK           -31.740  28.057   7.794                          
+HETATM  661   CA BLK           -33.010  28.275   8.485                          
+HETATM  662   C  BLK           -32.920  29.522   9.370                          
+HETATM  663   O  BLK           -33.839  30.342   9.400                          
+HETATM  664   CB BLK           -33.371  27.062   9.327                          
+HETATM  665   N  BLK           -31.805  29.668  10.082                          
+HETATM  666   CA BLK           -31.612  30.821  10.959                          
+HETATM  667   C  BLK           -31.518  32.119  10.160                          
+HETATM  668   O  BLK           -31.979  33.166  10.614                          
+HETATM  669   CB BLK           -30.342  30.651  11.835                          
+HETATM  670   CG1BLK           -29.994  31.960  12.533                          
+HETATM  671   CG2BLK           -30.578  29.558  12.864                          
+HETATM  672   N  BLK           -30.915  32.052   8.977                          
+HETATM  673   CA BLK           -30.793  33.229   8.122                          
+HETATM  674   C  BLK           -32.183  33.675   7.670                          
+HETATM  675   O  BLK           -32.507  34.864   7.700                          
+HETATM  676   CB BLK           -29.937  32.935   6.863                          
+HETATM  677   CG1BLK           -30.077  34.067   5.854                          
+HETATM  678   CG2BLK           -28.485  32.774   7.253                          
+HETATM  679   N  BLK           -33.001  32.712   7.252                          
+HETATM  680   CA BLK           -34.353  33.008   6.795                          
+HETATM  681   C  BLK           -35.154  33.677   7.907                          
+HETATM  682   O  BLK           -35.852  34.661   7.670                          
+HETATM  683   CB BLK           -35.049  31.723   6.340                          
+HETATM  684   N  BLK           -35.040  33.150   9.122                          
+HETATM  685   CA BLK           -35.768  33.701  10.258                          
+HETATM  686   C  BLK           -35.333  35.124  10.599                          
+HETATM  687   O  BLK           -36.133  35.916  11.095                          
+HETATM  688   CB BLK           -35.598  32.799  11.483                          
+HETATM  689   CG BLK           -36.166  31.400  11.303                          
+HETATM  690   CD BLK           -35.916  30.545  12.534                          
+HETATM  691   CE BLK           -36.565  29.178  12.399                          
+HETATM  692   NZ BLK           -36.280  28.316  13.585                          
+HETATM  693   N  BLK           -34.069  35.450  10.343                          
+HETATM  694   CA BLK           -33.580  36.794  10.624                          
+HETATM  695   C  BLK           -34.008  37.772   9.540                          
+HETATM  696   O  BLK           -34.304  38.931   9.828                          
+HETATM  697   CB BLK           -32.057  36.796  10.761                          
+HETATM  698   CG BLK           -31.583  36.643  12.174                          
+HETATM  699   CD1BLK           -31.726  37.686  13.081                          
+HETATM  700   CD2BLK           -31.037  35.442  12.614                          
+HETATM  701   CE1BLK           -31.335  37.536  14.405                          
+HETATM  702   CE2BLK           -30.644  35.283  13.940                          
+HETATM  703   CZ BLK           -30.794  36.332  14.836                          
+HETATM  704   N  BLK           -34.039  37.305   8.295                          
+HETATM  705   CA BLK           -34.454  38.157   7.185                          
+HETATM  706   C  BLK           -35.923  38.503   7.386                          
+HETATM  707   O  BLK           -36.358  39.616   7.091                          
+HETATM  708   CB BLK           -34.250  37.438   5.849                          
+HETATM  709   CG BLK           -32.790  37.110   5.562                          
+HETATM  710   CD BLK           -32.573  36.463   4.208                          
+HETATM  711   OE1BLK           -33.262  35.512   3.842                          
+HETATM  712   NE2BLK           -31.599  36.969   3.461                          
+HETATM  713   N  BLK           -36.678  37.542   7.905                          
+HETATM  714   CA BLK           -38.093  37.740   8.175                          
+HETATM  715   C  BLK           -38.241  38.740   9.321                          
+HETATM  716   O  BLK           -39.041  39.672   9.240                          
+HETATM  717   CB BLK           -38.752  36.413   8.562                          
+HETATM  718   CG BLK           -40.238  36.531   8.884                          
+HETATM  719   CD BLK           -40.790  35.241   9.478                          
+HETATM  720   CE BLK           -40.682  34.075   8.501                          
+HETATM  721   NZ BLK           -41.180  32.803   9.106                          
+HETATM  722   N  BLK           -37.466  38.542  10.385                          
+HETATM  723   CA BLK           -37.518  39.436  11.537                          
+HETATM  724   C  BLK           -37.204  40.869  11.134                          
+HETATM  725   O  BLK           -37.913  41.798  11.518                          
+HETATM  726   CB BLK           -36.531  38.989  12.617                          
+HETATM  727   CG BLK           -36.390  39.941  13.812                          
+HETATM  728   CD1BLK           -37.732  40.099  14.516                          
+HETATM  729   CD2BLK           -35.339  39.404  14.772                          
+HETATM  730   N  BLK           -36.135  41.045  10.367                          
+HETATM  731   CA BLK           -35.734  42.372   9.910                          
+HETATM  732   C  BLK           -36.889  43.027   9.154                          
+HETATM  733   O  BLK           -37.165  44.214   9.327                          
+HETATM  734   CB BLK           -34.507  42.269   8.997                          
+HETATM  735   CG BLK           -33.901  43.577   8.480                          
+HETATM  736   CD1BLK           -33.446  44.429   9.654                          
+HETATM  737   CD2BLK           -32.731  43.272   7.560                          
+HETATM  738   N  BLK           -37.561  42.237   8.323                          
+HETATM  739   CA BLK           -38.693  42.718   7.539                          
+HETATM  740   C  BLK           -39.826  43.210   8.445                          
+HETATM  741   O  BLK           -40.307  44.332   8.295                          
+HETATM  742   CB BLK           -39.196  41.597   6.625                          
+HETATM  743   CG BLK           -40.416  41.956   5.790                          
+HETATM  744   CD BLK           -40.804  40.847   4.824                          
+HETATM  745   OE1BLK           -41.005  39.699   5.282                          
+HETATM  746   OE2BLK           -40.911  41.123   3.607                          
+HETATM  747   N  BLK           -40.247  42.369   9.385                          
+HETATM  748   CA BLK           -41.313  42.729  10.313                          
+HETATM  749   C  BLK           -40.966  44.037  11.024                          
+HETATM  750   O  BLK           -41.850  44.826  11.364                          
+HETATM  751   CB BLK           -41.528  41.622  11.375                          
+HETATM  752   CG1BLK           -42.601  42.045  12.366                          
+HETATM  753   CG2BLK           -41.919  40.317  10.696                          
+HETATM  754   N  BLK           -39.674  44.261  11.244                          
+HETATM  755   CA BLK           -39.218  45.476  11.908                          
+HETATM  756   C  BLK           -39.381  46.706  11.018                          
+HETATM  757   O  BLK           -39.973  47.699  11.430                          
+HETATM  758   CB BLK           -37.736  45.366  12.328                          
+HETATM  759   CG1BLK           -37.605  44.400  13.508                          
+HETATM  760   CG2BLK           -37.186  46.743  12.687                          
+HETATM  761   CD1BLK           -36.186  44.235  14.014                          
+HETATM  762   N  BLK           -38.851  46.635   9.802                          
+HETATM  763   CA BLK           -38.932  47.752   8.868                          
+HETATM  764   C  BLK           -40.354  48.048   8.401                          
+HETATM  765   O  BLK           -40.653  49.163   7.979                          
+HETATM  766   CB BLK           -38.052  47.482   7.646                          
+HETATM  767   CG BLK           -36.566  47.448   7.937                          
+HETATM  768   CD BLK           -35.780  47.258   6.657                          
+HETATM  769   CE BLK           -34.285  47.302   6.903                          
+HETATM  770   NZ BLK           -33.535  47.123   5.626                          
+HETATM  771   N  BLK           -41.228  47.052   8.479                          
+HETATM  772   CA BLK           -42.610  47.217   8.046                          
+HETATM  773   C  BLK           -43.474  47.951   9.060                          
+HETATM  774   O  BLK           -44.325  48.760   8.687                          
+HETATM  775   CB BLK           -43.236  45.852   7.749                          
+HETATM  776   OG BLK           -42.564  45.206   6.684                          
+HETATM  777   N  BLK           -43.251  47.675  10.340                          
+HETATM  778   CA BLK           -44.045  48.294  11.391                          
+HETATM  779   C  BLK           -43.386  49.463  12.118                          
+HETATM  780   O  BLK           -44.074  50.379  12.567                          
+HETATM  781   CB BLK           -44.465  47.226  12.402                          
+HETATM  782   CG BLK           -45.286  46.118  11.766                          
+HETATM  783   OD1BLK           -46.372  46.361  11.237                          
+HETATM  784   ND2BLK           -44.768  44.896  11.810                          
+HETATM  785   N  BLK           -42.064  49.441  12.233                          
+HETATM  786   CA BLK           -41.356  50.514  12.925                          
+HETATM  787   C  BLK           -40.773  51.548  11.966                          
+HETATM  788   O  BLK           -40.153  51.206  10.961                          
+HETATM  789   CB BLK           -40.247  49.928  13.801                          
+HETATM  790   CG BLK           -40.712  48.963  14.895                          
+HETATM  791   CD1BLK           -39.506  48.355  15.590                          
+HETATM  792   CD2BLK           -41.597  49.698  15.891                          
+HETATM  793   N  BLK           -40.976  52.819  12.293                          
+HETATM  794   CA BLK           -40.493  53.922  11.469                          
+HETATM  795   C  BLK           -39.129  54.409  11.947                          
+HETATM  796   O  BLK           -38.897  54.550  13.146                          
+HETATM  797   CB BLK           -41.509  55.070  11.509                          
+HETATM  798   CG BLK           -41.147  56.292  10.679                          
+HETATM  799   CD BLK           -42.214  57.369  10.839                          
+HETATM  800   CE BLK           -41.842  58.653  10.115                          
+HETATM  801   NZ BLK           -42.876  59.709  10.317                          
+HETATM  802   N  BLK           -38.236  54.668  10.994                          
+HETATM  803   CA BLK           -36.882  55.131  11.297                          
+HETATM  804   C  BLK           -36.275  54.409  12.499                          
+HETATM  805   O  BLK           -35.834  55.045  13.457                          
+HETATM  806   CB BLK           -36.885  56.639  11.557                          
+HETATM  807   CG BLK           -37.398  57.431  10.372                          
+HETATM  808   OD1BLK           -36.917  57.268   9.249                          
+HETATM  809   ND2BLK           -38.375  58.298  10.617                          
+HETATM  810   N  BLK           -36.095  52.934  12.057                          
+HETATM  811   CA BLK           -35.437  52.009  12.983                          
+HETATM  812   C  BLK           -33.953  52.314  13.154                          
+HETATM  813   O  BLK           -33.256  52.624  12.189                          
+HETATM  814   CB BLK           -35.664  50.645  12.331                          
+HETATM  815   CG BLK           -36.926  50.843  11.543                          
+HETATM  816   CD BLK           -36.697  52.198  10.933                          
+HETATM  817   N  BLK           -33.479  52.228  14.391                          
+HETATM  818   CA BLK           -32.075  52.474  14.692                          
+HETATM  819   C  BLK           -31.582  51.468  15.721                          
+HETATM  820   O  BLK           -32.373  50.908  16.480                          
+HETATM  821   CB BLK           -31.880  53.891  15.227                          
+HETATM  822   CG BLK           -32.031  54.973  14.178                          
+HETATM  823   CD BLK           -31.710  56.345  14.726                          
+HETATM  824   OE1BLK           -32.360  56.819  15.660                          
+HETATM  825   NE2BLK           -30.699  56.990  14.154                          
+HETATM  826   N  BLK           -30.276  51.236  15.741                          
+HETATM  827   CA BLK           -29.701  50.293  16.683                          
+HETATM  828   C  BLK           -28.788  51.007  17.667                          
+HETATM  829   O  BLK           -27.949  51.823  17.282                          
+HETATM  830   CB BLK           -28.909  49.187  15.956                          
+HETATM  831   CG1BLK           -28.307  48.228  16.966                          
+HETATM  832   CG2BLK           -29.827  48.438  15.006                          
+HETATM  833   N  BLK           -28.964  50.691  18.944                          
+HETATM  834   CA BLK           -28.177  51.291  20.006                          
+HETATM  835   C  BLK           -27.370  50.253  20.767                          
+HETATM  836   O  BLK           -27.925  49.298  21.312                          
+HETATM  837   CB BLK           -29.102  52.030  20.971                          
+HETATM  838   CG BLK           -29.577  53.361  20.446                          
+HETATM  839   CD1BLK           -28.850  54.519  20.690                          
+HETATM  840   CD2BLK           -30.737  53.462  19.682                          
+HETATM  841   CE1BLK           -29.261  55.747  20.191                          
+HETATM  842   CE2BLK           -31.157  54.689  19.173                          
+HETATM  843   CZ BLK           -30.411  55.827  19.435                          
+HETATM  844   OH BLK           -30.806  57.050  18.945                          
+HETATM  845   N  BLK           -26.055  50.448  20.793                          
+HETATM  846   CA BLK           -25.149  49.555  21.498                          
+HETATM  847   C  BLK           -24.708  50.258  22.773                          
+HETATM  848   O  BLK           -24.043  51.289  22.721                          
+HETATM  849   CB BLK           -23.928  49.234  20.632                          
+HETATM  850   CG BLK           -24.174  48.193  19.544                          
+HETATM  851   CD BLK           -23.082  48.250  18.482                          
+HETATM  852   NE BLK           -21.742  48.154  19.057                          
+HETATM  853   CZ BLK           -21.067  47.019  19.222                          
+HETATM  854   NH1BLK           -21.596  45.859  18.852                          
+HETATM  855   NH2BLK           -19.855  47.047  19.766                          
+HETATM  856   N  BLK           -25.087  49.700  23.916                          
+HETATM  857   CA BLK           -24.734  50.286  25.199                          
+HETATM  858   C  BLK           -23.780  49.400  25.981                          
+HETATM  859   O  BLK           -23.996  48.194  26.093                          
+HETATM  860   CB BLK           -25.998  50.533  26.031                          
+HETATM  861   CG BLK           -27.046  51.457  25.403                          
+HETATM  862   CD1BLK           -28.234  51.600  26.340                          
+HETATM  863   CD2BLK           -26.424  52.817  25.121                          
+HETATM  864   N  BLK           -22.724  50.011  26.514                          
+HETATM  865   CA BLK           -21.745  49.280  27.302                          
+HETATM  866   C  BLK           -20.513  48.836  26.535                          
+HETATM  867   O  BLK           -20.322  49.206  25.378                          
+HETATM  868   N  BLK           -19.673  48.045  27.200                          
+HETATM  869   CA BLK           -18.449  47.509  26.606                          
+HETATM  870   C  BLK           -18.298  46.048  27.027                          
+HETATM  871   O  BLK           -18.652  45.696  28.151                          
+HETATM  872   CB BLK           -17.222  48.282  27.093                          
+HETATM  873   CG BLK           -17.230  49.768  26.814                          
+HETATM  874   CD BLK           -15.965  50.444  27.322                          
+HETATM  875   OE1BLK           -15.669  50.320  28.533                          
+HETATM  876   OE2BLK           -15.269  51.093  26.511                          
+HETATM  877   N  BLK           -17.762  45.214  26.134                          
+HETATM  878   CA BLK           -17.555  43.789  26.412                          
+HETATM  879   C  BLK           -18.889  43.049  26.451                          
+HETATM  880   O  BLK           -19.167  42.211  25.591                          
+HETATM  881   CB BLK           -16.825  43.587  27.754                          
+HETATM  882   CG1BLK           -16.474  42.114  27.947                          
+HETATM  883   CG2BLK           -15.580  44.453  27.789                          
+HETATM  884   N  BLK           -19.697  43.344  27.466                          
+HETATM  885   CA BLK           -21.027  42.756  27.604                          
+HETATM  886   C  BLK           -21.965  43.907  27.261                          
+HETATM  887   O  BLK           -22.260  44.744  28.114                          
+HETATM  888   CB BLK           -21.292  42.310  29.045                          
+HETATM  889   CG BLK           -20.415  41.180  29.551                          
+HETATM  890   CD BLK           -20.761  40.773  30.978                          
+HETATM  891   OE1BLK           -20.059  41.211  31.916                          
+HETATM  892   OE2BLK           -21.742  40.019  31.162                          
+HETATM  893   N  BLK           -22.425  43.961  26.016                          
+HETATM  894   CA BLK           -23.295  45.054  25.601                          
+HETATM  895   C  BLK           -24.759  44.709  25.448                          
+HETATM  896   O  BLK           -25.122  43.607  25.031                          
+HETATM  897   CB BLK           -22.819  45.655  24.275                          
+HETATM  898   CG BLK           -21.358  46.061  24.096                          
+HETATM  899   CD1BLK           -20.509  44.822  23.831                          
+HETATM  900   CD2BLK           -21.250  47.027  22.921                          
+HETATM  901   N  BLK           -25.596  45.682  25.783                          
+HETATM  902   CA BLK           -27.037  45.554  25.643                          
+HETATM  903   C  BLK           -27.326  46.274  24.334                          
+HETATM  904   O  BLK           -26.880  47.402  24.135                          
+HETATM  905   CB BLK           -27.752  46.251  26.804                          
+HETATM  906   CG BLK           -27.647  45.474  28.103                          
+HETATM  907   OD1BLK           -27.771  46.090  29.182                          
+HETATM  908   OD2BLK           -27.455  44.241  28.048                          
+HETATM  909   N  BLK           -28.044  45.622  23.431                          
+HETATM  910   CA BLK           -28.358  46.233  22.148                          
+HETATM  911   C  BLK           -29.852  46.464  22.028                          
+HETATM  912   O  BLK           -30.651  45.596  22.377                          
+HETATM  913   CB BLK           -27.887  45.350  20.976                          
+HETATM  914   CG1BLK           -28.351  45.943  19.661                          
+HETATM  915   CG2BLK           -26.373  45.235  20.992                          
+HETATM  916   N  BLK           -30.224  47.639  21.529                          
+HETATM  917   CA BLK           -31.629  47.986  21.375                          
+HETATM  918   C  BLK           -31.972  48.409  19.957                          
+HETATM  919   O  BLK           -31.326  49.289  19.387                          
+HETATM  920   CB BLK           -31.994  49.122  22.338                          
+HETATM  921   CG BLK           -31.903  48.746  23.798                          
+HETATM  922   CD1BLK           -32.986  48.171  24.461                          
+HETATM  923   CD2BLK           -30.721  48.935  24.510                          
+HETATM  924   CE1BLK           -32.889  47.790  25.801                          
+HETATM  925   CE2BLK           -30.614  48.561  25.844                          
+HETATM  926   CZ BLK           -31.698  47.989  26.482                          
+HETATM  927   OH BLK           -31.582  47.616  27.803                          
+HETATM  928   N  BLK           -32.981  47.761  19.385                          
+HETATM  929   CA BLK           -33.452  48.100  18.051                          
+HETATM  930   C  BLK           -34.670  48.970  18.343                          
+HETATM  931   O  BLK           -35.740  48.462  18.691                          
+HETATM  932   CB BLK           -33.891  46.851  17.262                          
+HETATM  933   CG1BLK           -34.265  47.241  15.844                          
+HETATM  934   CG2BLK           -32.778  45.825  17.249                          
+HETATM  935   N  BLK           -34.497  50.281  18.220                          
+HETATM  936   CA BLK           -35.569  51.223  18.517                          
+HETATM  937   C  BLK           -36.216  51.849  17.290                          
+HETATM  938   O  BLK           -35.533  52.386  16.414                          
+HETATM  939   CB BLK           -35.047  52.350  19.432                          
+HETATM  940   CG1BLK           -34.298  51.736  20.618                          
+HETATM  941   CG2BLK           -36.205  53.201  19.931                          
+HETATM  942   CD1BLK           -33.576  52.739  21.479                          
+HETATM  943   N  BLK           -37.543  51.777  17.247                          
+HETATM  944   CA BLK           -38.299  52.345  16.147                          
+HETATM  945   C  BLK           -39.559  53.017  16.662                          
+HETATM  946   O  BLK           -39.864  52.943  17.854                          
+HETATM  947   N  BLK           -40.294  53.676  15.772                          
+HETATM  948   CA BLK           -41.525  54.360  16.158                          
+HETATM  949   C  BLK           -42.762  53.691  15.567                          
+HETATM  950   O  BLK           -42.803  53.378  14.375                          
+HETATM  951   CB BLK           -41.479  55.829  15.719                          
+HETATM  952   CG BLK           -42.824  56.547  15.822                          
+HETATM  953   CD BLK           -42.766  57.996  15.365                          
+HETATM  954   OE1BLK           -42.272  58.254  14.244                          
+HETATM  955   OE2BLK           -43.226  58.876  16.125                          
+HETATM  956   N  BLK           -43.768  53.477  16.411                          
+HETATM  957   CA BLK           -45.017  52.857  15.983                          
+HETATM  958   C  BLK           -45.945  53.918  15.393                          
+HETATM  959   O  BLK           -45.833  55.103  15.714                          
+HETATM  960   CB BLK           -45.743  52.182  17.167                          
+HETATM  961   OG1BLK           -46.126  53.176  18.128                          
+HETATM  962   CG2BLK           -44.836  51.161  17.836                          
+HETATM  963   N  BLK           -46.879  53.507  14.520                          
+HETATM  964   CA BLK           -47.803  54.472  13.917                          
+HETATM  965   C  BLK           -48.657  55.197  14.955                          
+HETATM  966   O  BLK           -49.382  56.137  14.627                          
+HETATM  967   CB BLK           -48.631  53.608  12.967                          
+HETATM  968   CG BLK           -48.628  52.271  13.640                          
+HETATM  969   CD BLK           -47.188  52.139  14.073                          
+HETATM  970   N  BLK           -48.562  54.761  16.208                          
+HETATM  971   CA BLK           -49.321  55.374  17.290                          
+HETATM  972   C  BLK           -48.515  56.494  17.944                          
+HETATM  973   O  BLK           -48.987  57.149  18.876                          
+HETATM  974   CB BLK           -49.698  54.322  18.329                          
+HETATM  975   N  BLK           -47.297  56.703  17.452                          
+HETATM  976   CA BLK           -46.442  57.747  17.991                          
+HETATM  977   C  BLK           -45.614  57.327  19.194                          
+HETATM  978   O  BLK           -45.148  58.174  19.957                          
+HETATM  979   N  BLK           -45.421  56.023  19.367                          
+HETATM  980   CA BLK           -44.643  55.508  20.490                          
+HETATM  981   C  BLK           -43.364  54.812  20.044                          
+HETATM  982   O  BLK           -43.227  54.424  18.884                          
+HETATM  983   CB BLK           -45.490  54.533  21.308                          
+HETATM  984   CG BLK           -46.594  55.223  22.075                          
+HETATM  985   OD1BLK           -46.542  56.430  22.308                          
+HETATM  986   ND2BLK           -47.610  54.462  22.466                          
+HETATM  987   N  BLK           -42.427  54.662  20.974                          
+HETATM  988   CA BLK           -41.161  53.997  20.682                          
+HETATM  989   C  BLK           -41.211  52.551  21.163                          
+HETATM  990   O  BLK           -41.563  52.280  22.314                          
+HETATM  991   CB BLK           -39.999  54.721  21.366                          
+HETATM  992   CG BLK           -39.688  56.156  20.935                          
+HETATM  993   CD1BLK           -38.519  56.673  21.750                          
+HETATM  994   CD2BLK           -39.362  56.207  19.453                          
+HETATM  995   N  BLK           -40.860  51.630  20.271                          
+HETATM  996   CA BLK           -40.857  50.205  20.582                          
+HETATM  997   C  BLK           -39.778  49.487  19.776                          
+HETATM  998   O  BLK           -39.115  50.090  18.934                          
+HETATM  999   CB BLK           -42.223  49.606  20.275                          
+HETATM 1000   N  BLK           -39.606  48.196  20.039                          
+HETATM 1001   CA BLK           -38.608  47.425  19.322                          
+HETATM 1002   C  BLK           -38.159  46.197  20.088                          
+HETATM 1003   O  BLK           -38.874  45.710  20.969                          
+HETATM 1004   N  BLK           -36.975  45.691  19.755                          
+HETATM 1005   CA BLK           -36.438  44.514  20.425                          
+HETATM 1006   C  BLK           -35.048  44.782  20.986                          
+HETATM 1007   O  BLK           -34.359  45.712  20.564                          
+HETATM 1008   CB BLK           -36.370  43.303  19.470                          
+HETATM 1009   CG1BLK           -35.486  43.630  18.270                          
+HETATM 1010   CG2BLK           -37.773  42.929  19.007                          
+HETATM 1011   CD1BLK           -35.412  42.517  17.237                          
+HETATM 1012   N  BLK           -34.640  43.963  21.947                          
+HETATM 1013   CA BLK           -33.336  44.134  22.563                          
+HETATM 1014   C  BLK           -32.684  42.789  22.828                          
+HETATM 1015   O  BLK           -33.365  41.786  23.033                          
+HETATM 1016   CB BLK           -33.464  44.920  23.876                          
+HETATM 1017   OG BLK           -34.184  44.191  24.855                          
+HETATM 1018   N  BLK           -31.359  42.777  22.827                          
+HETATM 1019   CA BLK           -30.619  41.551  23.068                          
+HETATM 1020   C  BLK           -29.261  41.898  23.665                          
+HETATM 1021   O  BLK           -29.015  43.045  24.044                          
+HETATM 1022   CB BLK           -30.434  40.750  21.755                          
+HETATM 1023   OG1BLK           -29.876  39.463  22.050                          
+HETATM 1024   CG2BLK           -29.520  41.498  20.793                          
+HETATM 1025   N  BLK           -28.384  40.908  23.760                          
+HETATM 1026   CA BLK           -27.065  41.135  24.323                          
+HETATM 1027   C  BLK           -25.956  40.611  23.426                          
+HETATM 1028   O  BLK           -26.143  39.655  22.667                          
+HETATM 1029   CB BLK           -26.974  40.497  25.707                          
+HETATM 1030   CG BLK           -27.840  41.192  26.755                          
+HETATM 1031   CD BLK           -27.739  40.507  28.110                          
+HETATM 1032   CE BLK           -28.288  41.396  29.224                          
+HETATM 1033   NZ BLK           -29.694  41.825  28.974                          
+HETATM 1034   N  BLK           -24.799  41.251  23.523                          
+HETATM 1035   CA BLK           -23.640  40.885  22.728                          
+HETATM 1036   C  BLK           -22.392  40.828  23.604                          
+HETATM 1037   O  BLK           -22.226  41.637  24.522                          
+HETATM 1038   CB BLK           -23.425  41.916  21.592                          
+HETATM 1039   CG1BLK           -22.049  41.751  20.976                          
+HETATM 1040   CG2BLK           -24.502  41.747  20.532                          
+HETATM 1041   N  BLK           -21.522  39.862  23.325                          
+HETATM 1042   CA BLK           -20.281  39.717  24.068                          
+HETATM 1043   C  BLK           -19.109  39.803  23.097                          
+HETATM 1044   O  BLK           -19.010  39.013  22.159                          
+HETATM 1045   CB BLK           -20.215  38.367  24.815                          
+HETATM 1046   CG1BLK           -18.870  38.226  25.528                          
+HETATM 1047   CG2BLK           -21.346  38.278  25.819                          
+HETATM 1048   N  BLK           -18.228  40.773  23.323                          
+HETATM 1049   CA BLK           -17.060  40.962  22.473                          
+HETATM 1050   C  BLK           -15.828  41.156  23.348                          
+HETATM 1051   O  BLK           -15.673  42.186  24.006                          
+HETATM 1052   CB BLK           -17.255  42.181  21.572                          
+HETATM 1053   CG BLK           -18.653  42.291  21.009                          
+HETATM 1054   CD BLK           -18.772  43.349  19.937                          
+HETATM 1055   OE1BLK           -18.176  44.436  20.101                          
+HETATM 1056   OE2BLK           -19.474  43.090  18.932                          
+HETATM 1057   N  BLK           -14.957  40.154  23.350                          
+HETATM 1058   CA BLK           -13.739  40.190  24.144                          
+HETATM 1059   C  BLK           -12.531  40.138  23.220                          
+HETATM 1060   O  BLK           -12.743  40.103  21.988                          
+HETATM 1061   CB BLK           -13.659  38.989  25.108                          
+HETATM 1062   OG1BLK           -13.532  37.778  24.352                          
+HETATM 1063   CG2BLK           -14.905  38.909  25.971                          
+HETATM 1064   OXTBLK           -11.392  40.130  23.741                          
+END                                                                             

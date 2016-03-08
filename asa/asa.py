@@ -1,16 +1,12 @@
 #!/usr/bin/env python
 
 """
-This source code was adapted from https://github.com/boscoh/pdbremix/blob/master/pdbremix/asa.py
-Parameters in the radii.txt file were modified as well.
-
 Routines to calculate the Accessible Surface Area of a set of atoms.
 The algorithm is adapted from the Rose lab's chasa.py, which uses
 the dot density technique found in:
 
 Shrake, A., and J. A. Rupley. "Environment and Exposure to Solvent
 of Protein Atoms. Lysozyme and Insulin." JMB (1973) 79:351-371.
-
 """
 
 
@@ -136,7 +132,7 @@ def main():
       n_sphere = int(a)
       print "Points on sphere: ", n_sphere
   asas = calculate_asa(atoms, 1.4, n_sphere)
-  print "%.1f" % sum(asas)
+  print "%.1f angstrom squared." % sum(asas)
 
   if len(args) > 1:
     for asa, atom in zip(asas, atoms):
