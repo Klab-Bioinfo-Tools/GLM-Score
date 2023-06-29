@@ -9,7 +9,6 @@ Shrake, A., and J. A. Rupley. "Environment and Exposure to Solvent
 of Protein Atoms. Lysozyme and Insulin." JMB (1973) 79:351-371.
 """
 
-
 import math
 from itertools import chain
 from vector3d import pos_distance, Vector3d, pos_distance_sq
