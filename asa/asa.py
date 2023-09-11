@@ -37,7 +37,7 @@ def find_neighbor_indices(atoms, probe, k):
     neighbor_indices = []
     atom_k = atoms[k]
     radius = atom_k.radius + probe + probe
-    indices = range(k)
+    indices = list(range(k))
     indices.extend(range(k+1, len(atoms)))
     for i in indices:
         atom_i = atoms[i]
@@ -72,7 +72,7 @@ def calculate_asa(atoms, probe, n_sphere_point=960):
             test_point.y = point[1]*radius + atom_i.pos.y
             test_point.z = point[2]*radius + atom_i.pos.z
 
-            cycled_indices = range(j_closest_neighbor, n_neighbor)
+            cycled_indices = list(range(j_closest_neighbor, n_neighbor))
             cycled_indices.extend(range(j_closest_neighbor))
 
             for j in cycled_indices:
@@ -119,7 +119,7 @@ def main():
 
   opts, args = getopt.getopt(sys.argv[1:], "n:")
   if len(args) < 1:
-    print usage
+    print(usage)
     return
     
   mol = molecule.Molecule(args[0])
@@ -130,9 +130,9 @@ def main():
   for o, a in opts:
     if '-n' in o:
       n_sphere = int(a)
-      print "Points on sphere: ", n_sphere
+      print("Points on sphere: ", n_sphere)
   asas = calculate_asa(atoms, 1.4, n_sphere)
-  print "%.1f angstrom squared." % sum(asas)
+  print("%.1f angstrom squared." % sum(asas))
 
   if len(args) > 1:
     for asa, atom in zip(asas, atoms):
