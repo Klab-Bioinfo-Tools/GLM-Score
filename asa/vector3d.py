@@ -277,9 +277,9 @@ class Matrix3d:
     for i in range(0, 3):
       for j in range(0, 3):
         if abs(self.elem(i,j) - rhs.elem(i,j)) > SMALL:
-	      return False
+          return False
     return True
-	
+    
   def __mul__(self, rhs):
     c = Matrix3d()
     for i in range(0, 3):
