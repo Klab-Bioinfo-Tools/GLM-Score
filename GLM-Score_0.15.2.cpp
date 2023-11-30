@@ -318,7 +318,7 @@ double summation(double a, double b){
 	return sum;
 }
 
-int open_ligand()
+void open_ligand()
 {
 	int achou_mol2 = 0;
 	ifstream inlig;
@@ -692,7 +692,7 @@ void distancia()
 //-----------------------------------------------------------------
 //-------------------------------------------------------------------
 //-------------------------------------------------------------------
-int open_protein()
+void open_protein()
 {
 	int achou_pdb = 0;
 	ifstream inprot;
@@ -3006,15 +3006,33 @@ void angulos()
 //-----------------------------------------------------------------
 //---------------SAIDA-FORMATO-PDB------------------
 //--------------------------------------------------------------
+
+std::string remove_extension(std::string filename) {
+    filename = filename.substr(filename.find_last_of("/\\") + 1);
+    size_t lastdot = filename.find_last_of(".");
+    if (lastdot == std::string::npos) return filename;
+    return filename.substr(0, lastdot); 
+}
+
+
+
 void saida_PDB()
 {
 	//saida final
-	vector<string> v;
-	v.clear();
-	split(ligand_name, '.', v);
-	char hb_file_name[100];
-	strcpy(hb_file_name, v[0].c_str());
-	strcat(hb_file_name, "_H-Bonds.pdb");
+	//vector<string> v;
+	//v.clear();
+	//split(ligand_name, '.', v);
+	//char hb_file_name[100];
+	//strcpy(hb_file_name, v[0].c_str());
+	//strcat(hb_file_name, "_H-Bonds.pdb");
+        std::string hb_file_name_str;
+        //strcpy(hb_file_name, v[0].c_str());
+        hb_file_name_str = remove_extension(ligand_name);
+        const int length = hb_file_name_str.length();
+        char* hb_file_name = new char[length + 1];
+        strcpy(hb_file_name, hb_file_name_str.c_str());
+        strcat(hb_file_name, "_H-Bonds.pdb");
+
 	ofstream result_PDB;
 	result_PDB.open(hb_file_name); 
 	//entrada (TEMP) 	 
@@ -3173,19 +3191,23 @@ lines_total2--;
        for(i = 0, j = 0; i < lines_total; i++)      /*modificam o original*/
                 if(strcmp(aux[i],"REP"))    /* se e rep nao copiamos */
                     {strcpy(vec[j++],aux[i]);lines_total2++;}
-//return;   /* nao faz falta
+//return;   /* nao faz falta*/
 }
-//FUNCAO QUE DELETA ARQUIVOS TEMPORARIOS
-int salva_proteina() /* ha probarlo */
+
+void salva_proteina()
 {
 	int L = 0;
 	lines_total = 0;
 	ifstream p_result;
-	vector<string> v;
-	v.clear();
-	split(ligand_name, '.', v);
-	char hb_file_name[100];
-	strcpy(hb_file_name, v[0].c_str());
+	//vector<string> v;
+	//v.clear();
+	//split(ligand_name, '.', v);
+        std::string hb_file_name_str;
+	//strcpy(hb_file_name, v[0].c_str());
+        hb_file_name_str = remove_extension(ligand_name);
+        const int length = hb_file_name_str.length();
+        char* hb_file_name = new char[length + 1];
+        strcpy(hb_file_name, hb_file_name_str.c_str());
 	strcat(hb_file_name, "_H-Bonds.pdb");
 	p_result.open(hb_file_name);
 	char line[82];
@@ -3193,10 +3215,9 @@ int salva_proteina() /* ha probarlo */
 	while (!p_result.eof())
 	{
 		p_result.get(line, sizeof(line), '\0');
-		lines_total++;	  
+		lines_total++;
 	}
 	p_result.close();
-	//cout << lines_total;
 	int i;   
 	char vec[lines_total][TAM]; 
 	ifstream p_result2;
@@ -3216,8 +3237,8 @@ int salva_proteina() /* ha probarlo */
 	L = 0;
 	del_rep(vec);
 	ofstream p_result3;
-	strcpy(hb_file_name, v[0].c_str());
-	strcat(hb_file_name, "_H-Bonds.pdb");
+	//strcpy(hb_file_name, v[0].c_str());
+	//strcat(hb_file_name, "_H-Bonds.pdb");
 	p_result3.open (hb_file_name); 
 	for(i = 0; i <= lines_total2; i++)
 			//cout << vec[i]; 
@@ -3808,9 +3829,17 @@ void result_score_calc(){
 	pclose(fp2);
 	//printf("%s",result2);
 	ASA2 = atof(result2);
-	char str3[100];
-	strcpy(str3, ligand_name);
-	strcat(str3, ".interaction_terms.txt");
+	//char str3[100];
+	//strcpy(str3, ligand_name);
+	//strcat(str3, ".interaction_terms.txt");
+
+        std::string str3_str;
+        str3_str = remove_extension(ligand_name);
+        const int length = str3_str.length();
+        char* str3 = new char[length + 21];
+        strcpy(str3, str3_str.c_str());
+        strcat(str3, ".interaction_terms.txt");
+
 	char type[100];
 	FILE* fp3;
 	char result3[10];
