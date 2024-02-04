@@ -51,7 +51,15 @@ There are 4 input parameters for GLM-Score:
 
 # Results
 
-The predicted pKD is shown on the standard output (printed on the terminal screen). Additional results are saved in 3 files:
+The predicted pKD is shown on the standard output (printed on the terminal screen). For example:
+
+```
+./GLM-Score ./examples/protein.pdb ./examples/ligand.pdb ./examples/ligand.mol2 DNA
+3.92735
+```
+The command above returned 3.92735 as the predicted pKD.
+
+Additional results are saved in 3 files:
 
 1. bonds.log sotres the hydrogen bond acceptor/donor pairs information:
 
