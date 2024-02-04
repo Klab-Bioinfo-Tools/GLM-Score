@@ -50,7 +50,7 @@ The predicted pKD is shown on the standard output (printed on the terminal scree
     
     Hydrogen bonds found: 7
     
-    ATOM   1002  N   SER A  65      19.354   8.232  25.607
+    ATOM   1002  N   SER A  65      19.354   8.232  25.60
     HETATM    4   O  BLK            16.520   8.515  25.940
     
     ATOM    202  NH1 ARG A  13      15.904   6.417  21.320
