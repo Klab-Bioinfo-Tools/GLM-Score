@@ -82,5 +82,6 @@ total hydrophobic contact score (V2), Van der Waals interactions (V3), side chai
     head ligand.interaction_terms.txt
     
     V2      V3      V4      V5      V6      V7      V18     V19     V20     V21     V22     V23
+    
     1016.08 -797.541        8       7       17156.9 735.1   103     33.4077 3.64    91.27   335     11760.7
     
