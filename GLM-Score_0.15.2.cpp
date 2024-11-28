@@ -2957,8 +2957,10 @@ void angulos()
 	p_bonds_final.open("p_result.tmp");
 	l_bonds_final.open("l_result.tmp");
 	d_bonds.open("dist_result.tmp");
-	while (!p_bonds_final.eof() || !l_bonds_final.eof() || !d_bonds.eof())
-	{
+        if (bond_count >= 1)
+        {
+	    while (!p_bonds_final.eof() || !l_bonds_final.eof() || !d_bonds.eof())
+	    {
 		p_bonds_final.get(p_line, sizeof(p_line), '\0');
 		l_bonds_final.get(l_line, sizeof(l_line), '\0');
 		d_bonds.get(b_distances, sizeof(b_distances), '\0');
@@ -2992,7 +2994,8 @@ void angulos()
 		bonds_log << "         ";
 		bonds_log << b_distances;
 		//bonds_log << endl;
-	} 
+	    } 
+        }
 	p_bonds_final.close();
 	l_bonds_final.close();
 	d_bonds.close();
@@ -3015,6 +3018,10 @@ std::string remove_extension(std::string filename) {
 }
 
 
+bool is_empty_tf(std::ifstream& pFile)
+{
+        return pFile.peek() == std::ifstream::traits_type::eof();
+}
 
 void saida_PDB()
 {
@@ -3025,21 +3032,34 @@ void saida_PDB()
 	//char hb_file_name[100];
 	//strcpy(hb_file_name, v[0].c_str());
 	//strcat(hb_file_name, "_H-Bonds.pdb");
-        std::string hb_file_name_str;
+        ////std::string hb_file_name_str;
         //strcpy(hb_file_name, v[0].c_str());
-        hb_file_name_str = remove_extension(ligand_name);
-        const int length = hb_file_name_str.length();
-        char* hb_file_name = new char[length + 1];
-        strcpy(hb_file_name, hb_file_name_str.c_str());
-        strcat(hb_file_name, "_H-Bonds.pdb");
+        ////hb_file_name_str = remove_extension(ligand_name);
+        ////const int length = hb_file_name_str.length();
+        ////char* hb_file_name = new char[length + 1];
+        ////strcpy(hb_file_name, hb_file_name_str.c_str());
+        ////strcat(hb_file_name, "_H-Bonds.pdb");
 
-	ofstream result_PDB;
-	result_PDB.open(hb_file_name); 
+	////ofstream result_PDB;
+	////result_PDB.open(hb_file_name); 
 	//entrada (TEMP) 	 
+
+        std::string hb_file_name_str = remove_extension(ligand_name);
+        hb_file_name_str += "_H-Bonds.pdb";
+
+        ofstream result_PDB(hb_file_name_str);
+
+        ifstream file("p_result.tmp");
+        if (is_empty_tf(file))
+        {
+             return;
+        }
+
 	ifstream p_result;
 	p_result.open("p_result.tmp");
 	ifstream l_result;
 	l_result.open("l_result.tmp");
+
 	char ATOM[7];
 	char esp1[2];
 	char esp2[4];
@@ -3198,18 +3218,30 @@ void salva_proteina()
 {
 	int L = 0;
 	lines_total = 0;
-	ifstream p_result;
+	////ifstream p_result;
 	//vector<string> v;
 	//v.clear();
 	//split(ligand_name, '.', v);
-        std::string hb_file_name_str;
+        ////std::string hb_file_name_str;
 	//strcpy(hb_file_name, v[0].c_str());
-        hb_file_name_str = remove_extension(ligand_name);
-        const int length = hb_file_name_str.length();
-        char* hb_file_name = new char[length + 1];
-        strcpy(hb_file_name, hb_file_name_str.c_str());
-	strcat(hb_file_name, "_H-Bonds.pdb");
-	p_result.open(hb_file_name);
+        ////hb_file_name_str = remove_extension(ligand_name);
+        ////const int length = hb_file_name_str.length();
+        ////char* hb_file_name = new char[length + 1];
+        ////strcpy(hb_file_name, hb_file_name_str.c_str());
+	////strcat(hb_file_name, "_H-Bonds.pdb");
+	////p_result.open(hb_file_name);
+
+        std::string hb_file_name_str = remove_extension(ligand_name);
+        hb_file_name_str += "_H-Bonds.pdb";
+        ifstream p_result(hb_file_name_str);
+
+        ifstream file("p_result.tmp");
+        if (is_empty_tf(file))
+        {
+             return;
+        }
+
+
 	char line[82];
 	//conta quantas linhas tem
 	while (!p_result.eof())
@@ -3220,8 +3252,9 @@ void salva_proteina()
 	p_result.close();
 	int i;   
 	char vec[lines_total][TAM]; 
-	ifstream p_result2;
-	p_result2.open(hb_file_name);
+        ifstream p_result2(hb_file_name_str);
+        ////ifstream p_result2;
+	////p_result2.open(hb_file_name);
 	while (!p_result2.eof() && L <=lines_total)
 	{
 		p_result2.get(line, sizeof(line), '\0');
@@ -3236,10 +3269,11 @@ void salva_proteina()
 	// cout << vec[L];
 	L = 0;
 	del_rep(vec);
-	ofstream p_result3;
+        ofstream p_result3(hb_file_name_str);
+	////ofstream p_result3;
 	//strcpy(hb_file_name, v[0].c_str());
 	//strcat(hb_file_name, "_H-Bonds.pdb");
-	p_result3.open (hb_file_name); 
+	////p_result3.open (hb_file_name); 
 	for(i = 0; i <= lines_total2; i++)
 			//cout << vec[i]; 
 			p_result3 << vec[i];
